@@ -120,25 +120,3 @@
         </div>
     </body>
 </html>
-
-<?php     // SCRIPT COMBAT
-
-    if(isset($_GET['perso'],$_GET['spell'])){
-        if($_GET['perso'] = 1){
-            if($_GET['spell'] = "auto-shot"){
-                $perso1 -> frapper($perso2);
-            }
-            if($_GET['spell'] = 2){
-                $bleed = $_GET['spell'];
-            }
-            if($_GET['spell'] = 3){
-                $cut = $_GET['spell'];
-            }
-            if($_GET['spell'] = 4){
-                $shield = $_GET['spell'];
-            }
-        }
-    }else {
-        // MESSAGE ERREUR
-    }
-?>
