@@ -1,0 +1,102 @@
+body{
+    margin: 0px;
+    padding:0px;
+}
+
+.title_one{
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    margin: auto;
+    font-size: 75px;
+    background-color: black;
+    color: white;
+}
+
+.players{
+    font-family: 'Bebas Neue', cursive;
+    padding-top: 25px;
+    font-size: 40px;
+}
+
+.player_one{
+    background-color: red;
+    color: white;
+    text-align: center;
+    margin: auto;
+}
+
+.player_two{
+    background-color: blue;
+    color: white;
+    text-align: center;
+    margin: auto;
+}
+
+.vs{
+    text-align: center;
+    margin: auto;
+}
+
+.img_players{
+    width: 350px;
+    height: 350px;
+    border-bottom: solid 10px black;
+    border-collapse: none;
+}
+
+img{
+    margin-top: 20px;
+}
+
+.caracteristique{
+    margin-top: 20px;
+}
+
+.stat{
+    margin-top: 3px;
+}
+
+.info_right{
+    position: relative;
+    color: black;
+    font-size: 40px;
+    margin-right: 20px;
+    float: right;
+    color: black;
+}
+
+.number_pv{
+    background-color: green;
+}
+
+.PV{
+    border: solid 5px black;
+}
+
+.FORCE{
+    background-color: red;
+    border: solid 5px black;
+}
+
+.MANA{
+    background-color: skyblue;
+    border: solid 5px black;
+}
+
+.EXP{
+    background-color: orange;
+    border: solid 5px black;
+}
+
+.fas{
+    margin-left: 20px;
+}
+
+.logo-caracteristique{
+    color: white;
+}
+
+.action_bar{
+    text-align: center;
+    margin: auto;
+}
