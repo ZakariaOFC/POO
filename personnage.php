@@ -6,6 +6,9 @@ class Personnage{                                                               
   private $_vie = 0;
   private $_mana = 150;
 
+  private static $_horde = "Pour la Horde !";
+  private static $_alliance = "Meurt chien !";
+
   public function __construct($force, $degats, $vie){    // Constructeur demandant 2 paramètres
     $this->setForce($force);                             // Initialisation de la force.
     $this->setDegats($degats);                           // Initialisation des dégâts.
@@ -91,7 +94,18 @@ class Personnage{                                                               
     
     $this->_experience = $experience;
   }
+  
   ///////////////////////////////////////////// END MUTATEURS ///////////////////////////////////////////////
-}
 
+  ///////////////////////////////////////////// METHOD STATIQUE ///////////////////////////////////////////////////
+
+  public static function perso1Speak(){
+    return self::$_horde;
+  }
+  public static function perso2Speak(){
+    return self::$_alliance;
+  }
+
+}
+  ///////////////////////////////////////////// END METHOD STATIQUE ///////////////////////////////////////////////
 ?>

@@ -100,3 +100,9 @@ img{
     text-align: center;
     margin: auto;
 }
+
+.msg_perso{
+    text-align: center;
+    margin: auto;
+    font-size: 32px;
+}

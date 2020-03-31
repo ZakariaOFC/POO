@@ -78,6 +78,9 @@
                             <i class="fas fa-angle-double-right fa-1x logo-caracteristique"></i>
                             <label class="info_right"><?php echo $perso1->experience() ;?></label>
                         </div>
+                        <div class="">
+                            <label class="msg_perso"><?php echo $perso1->perso1Speak() ;?></label>
+                        </div>
                     </div>
                 </div>
                 
@@ -112,6 +115,10 @@
                         <div class="stat EXP">
                             <i class="fas fa-angle-double-right fa-1x logo-caracteristique"></i>
                             <label class="info_right"><?php echo $perso2->experience() ;?></label>
+                        </div>
+
+                        <div class="">
+                            <label class="msg_perso"><?php echo $perso2->perso2Speak() ;?></label>
                         </div>
                     </div>
                     </div>
