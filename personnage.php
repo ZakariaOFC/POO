@@ -7,7 +7,7 @@ class Personnage{                                                               
   private $_mana = 150;
 
   private static $_horde = "Pour la Horde !";
-  private static $_alliance = "Meurt chien !";
+  private static $_alliance = "Meurs chien !";
 
   public function __construct($force, $degats, $vie){    // Constructeur demandant 2 paramètres
     $this->setForce($force);                             // Initialisation de la force.
